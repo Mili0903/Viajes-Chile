@@ -1,0 +1,30 @@
+.quienes-somos-section {
+    padding: 100px 0; /* Ajusta el espaciado interior según sea necesario */
+    display: flex;
+    justify-content: center;
+    margin-left: -110px;
+}
+
+.bg-light-gray {
+    background-color: rgb(96, 92, 92);
+
+}
+
+.rubik-white-title {
+    font-family: 'Rubik', sans-serif; /* Tipo de letra Rubik */
+    color: #ffffff; /* Color de texto blanco */
+}
+
+.linea-blanca {
+    border-top: 3px solid #fff; /* Línea blanca delgada */
+}
+
+/* Estilo para la imagen */
+.img-fluid {
+    max-width: 100%; /* Imagen adaptativa */
+    height: auto;
+    border-radius: 10px; /* Borde redondeado */
+}
+.text_quienes-somos{
+    color: #fff;
+}

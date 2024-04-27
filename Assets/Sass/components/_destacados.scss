@@ -1,0 +1,52 @@
+.destacados-section {
+    background-color: rgb(96, 92, 92);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: -20px;
+}
+
+.rubik-white-title {
+    font-family: 'Rubik', sans-serif;
+    color: #fff; /* Letras blancas */
+}
+
+.linea-blanca {
+    border-top: 3px solid #fff; /* Linea blanca */
+}
+
+.card-title,
+.card-text {
+    color: #000000; /* Letras blancas */
+    margin-left: 15px;
+}
+.card-text{
+    font-size: 12px;
+}
+.card {
+    max-width: 6000px; 
+    height: auto;
+}
+
+.card img {
+    max-width: 198px; 
+}
+.card-footer{
+    margin-left: 15px;
+    margin-top: 7px;
+}
+
+.linea-blanca {
+    width: 1100px; /* La línea blanca abarca toda la página */
+}
+@media (max-width: 767px) {
+    .card {
+        max-width: 200px; /* Elimina el ancho máximo en pantallas pequeñas */
+        margin-bottom: 10px; /* Añade un margen inferior a las tarjetas */
+    }
+    .linea-blanca {
+        width: 100%; /* La línea blanca abarca toda la página en pantallas pequeñas */
+    }
+}
+
+

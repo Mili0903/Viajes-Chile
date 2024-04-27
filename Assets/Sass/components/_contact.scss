@@ -1,0 +1,81 @@
+/* Estilos para la sección de contacto */
+.contact-section {
+    background-color: rgb(96, 92, 92);
+    padding: 40px 0;
+    margin-left: -130px;
+}
+
+/* Letra rubik blanca para el título */
+.rubik-white-title {
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+.titlecontact{
+    text-align: center;
+    margin-left: 490px;
+}
+
+/* Línea blanca delgada */
+.linea-blanca {
+    border-top: 3px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+/* Estilos para el ícono de información */
+.info-icon {
+    color: #fff;
+    margin-left: 5px;
+}
+
+/* Estilos para el formulario de contacto */
+#contact-form .form-group {
+    position: relative;
+}
+
+/* Estilos para el ícono de información dentro del formulario */
+#contact-form .form-group .info-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    cursor: pointer;
+}
+
+/* Estilos para el checkbox de términos y condiciones */
+#contact-form .form-check-input {
+    margin-top: 10px;
+}
+
+/* Estilos para el botón de enviar */
+#contact-form button[type="submit"] {
+    margin-top: 20px;
+}
+
+.form-group{
+    color: #fff;
+}
+.form-check-label{
+    color: #fff;
+}
+.info-icon1 {
+    position: relative;
+    top: -55px;
+    right: -65px;
+    transform: translateY(-50%);
+}
+
+.info-icon2 {
+    position: relative;
+    top: -63px;
+    left: 65px;
+}
+.info-icon3 {
+    margin-right: 465px;
+}
+.list-unstyled{
+    margin-top: 120px;
+}
+

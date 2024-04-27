@@ -1,0 +1,5 @@
+.header{
+    background-color: rgb(96, 92, 92);
+    position: relative; /* Posiciona el header de forma relativa */
+    z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+}
